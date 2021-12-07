@@ -1,0 +1,38 @@
+
+    h1{
+        color:blue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+    }
+    /** {
+        border: solid;
+    }*/
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 700;
+}
+body{
+    background-color: brown;
+}
+.menu{
+    color: crimson;
+    font-weight: bold;
+}
